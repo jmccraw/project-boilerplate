@@ -1,3 +1,7 @@
+// Resets, vars, mixins
+@import './styles/mixins';
 @import './styles/vars';
 @import './styles/reset';
+
+// Components
 @import './components/opener/opener';
