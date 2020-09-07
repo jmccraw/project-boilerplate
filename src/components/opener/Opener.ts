@@ -1,5 +1,5 @@
 const opener: string = 'Opener';
-const _opener = document.querySelector( '.opener' );
+const _opener: Element = document.querySelector( '.opener' );
 
 /**
  * Activates the button
@@ -14,7 +14,7 @@ function activateButton() {
 export default function init() {
   window.console.log( `Init for: ${opener}` );
 
-  const _button = _opener.querySelector( '.my-button' );
+  const _button: Element = _opener.querySelector( '.my-button' );
 
   _button.addEventListener( 'click', activateButton, { passive: true } );
 }
