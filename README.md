@@ -1,9 +1,9 @@
 # project-boilerplate
 Project boilerplate for creating standalone articles and other templates.
 
-It uses ES5+ features, with Typescript support and Babel transpiling, along with Sass for CSS and Handlebars for HTML templating.
+It uses ES5+ features, with TypeScript support and Babel transpiling, along with Sass for CSS and Handlebars for HTML templating.
 
-Folder are broken into `/components`, `/styles`, and `/utilities`. Components contain a capitalized JS file, along with an accompanying HBS file. Utilities are helpers that can be used within Handlebars templates or the application logic itself. Styles should be named the same as their respective component, or else broken into further atoms and folders.
+Folder are broken into `/components`, `/styles`, and `/utilities`. Components contain a capitalized TS file, along with an accompanying HBS file. Utilities are helpers that can be used within the application logic, while the helpers folder can be used within Handlebars templates. Styles should be named the same as their respective component, or else broken into further atoms and folders.
 
 ## Get started
 
