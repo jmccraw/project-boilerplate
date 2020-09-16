@@ -1,5 +1,14 @@
 h1 {
   color: $red;
-  font-size: 30px;
+  font-size: px-to-rem(30);
   text-align: center;
+
+  @include screen-from(desktop) {
+    font-size: px-to-rem(48);
+  }
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
 }
